@@ -8,15 +8,15 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
-
+@synthesize first, second;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+- (IBAction)submit:(id)sender {
+    }
 @end
